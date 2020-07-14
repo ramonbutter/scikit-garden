@@ -4,7 +4,7 @@ from sklearn.base import ClassifierMixin
 from sklearn.ensemble.forest import ForestClassifier
 from sklearn.ensemble.forest import ForestRegressor
 from sklearn.exceptions import NotFittedError
-from sklearn.externals.joblib import delayed, Parallel
+from joblib import delayed, Parallel
 from sklearn.preprocessing import LabelEncoder
 from sklearn.utils import check_random_state
 from sklearn.utils.validation import check_array
